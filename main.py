@@ -21,7 +21,7 @@ def run():
     print(f"La suma de {a} y {b} es: {c}")
 
     dict_df = {"A" : [1,2],  "B": ["Arroz", "Huevo"]}
-    df = pd.Dataframe(dict_df)
-    
+    df = pd.DataFrame(dict_df)
+    print(df)
 if __name__ == "__main__":
     run()
